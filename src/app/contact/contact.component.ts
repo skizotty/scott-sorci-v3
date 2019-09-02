@@ -34,16 +34,12 @@ export class ContactComponent {
       success: true
     };
     this.http
-      .post('https://jsonplaceholder.typicode.com/users', contact)
+      .post('http://scottsorci.com/form_endpoint.php', contact)
       .subscribe(res => {
-        if (res.success) {
-          this.isLoading = false;
-          this.isSubmittedSuccessFully = true;
-          //this.form.reset();
-        } else {
-          this.contactMe();
-        }
+        this.isLoading = false;
+        this.isSubmittedSuccessFully = true;
+        console.log(res);
       });
-    //console.log(contact);
+    // console.log(contact);
   }
 }

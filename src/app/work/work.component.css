@@ -3,6 +3,7 @@ mat-card {
   margin: 25px auto;
   padding-bottom: 30px;
   min-width: 400px;
+  max-width: 700px;
 }
 
 mat-card-actions {
