@@ -1,0 +1,27 @@
+* {
+  text-align: center;
+}
+
+svg {
+  display: inline;
+  margin: 20px;
+}
+
+.blurb {
+  width: 50%;
+  margin: auto;
+  min-width: 400px;
+}
+
+mat-divider {
+  width: 75%;
+  margin: auto;
+  padding-bottom: 50px;
+  margin-top: 50px;
+}
+
+mat-body-1,
+mat-body-2,
+p {
+  min-width: 400px;
+}

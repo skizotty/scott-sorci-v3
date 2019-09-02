@@ -1,0 +1,51 @@
+mat-card {
+  width: 60%;
+  margin: 25px auto;
+  padding-bottom: 30px;
+  min-width: 400px;
+}
+
+mat-card-actions {
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+mat-tab-group {
+  color: white;
+  background: url('/assets/hero-background.jpg') no-repeat fixed center;
+  background-position: top 20px;
+}
+
+button {
+  margin-bottom: 10px;
+}
+
+.title {
+  margin: auto;
+  text-align: center;
+}
+
+mat-tab {
+  min-width: 400px;
+}
+
+mat-tab-labels {
+  min-width: 400px;
+}
+
+img {
+  width: 100%;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+  margin: auto;
+  margin-top: 6px;
+}
+mat-divider {
+  width: 75%;
+  margin: auto;
+  padding-bottom: 50px;
+  margin-top: 50px;
+}
+
+.mat-tab-header-pagination-controls-enabled .mat-tab-header-pagination {
+  background: white;
+}

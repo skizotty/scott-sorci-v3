@@ -1,0 +1,25 @@
+<div class="title">
+  <h1 class="mat-headline">My Work</h1>
+</div>
+<mat-tab-group mat-align-tabs="center">
+  <mat-tab
+    *ngFor="let work of expirence"
+    label="{{ work.title }}"
+    color="primary"
+  >
+    <mat-card>
+      <mat-card-title>{{ work.title }}</mat-card-title>
+      <mat-card-content>{{ work.description }}</mat-card-content>
+      <a href="{{ work.link }}">
+        <img src="{{ work.img_src }}" mat-card-image
+      /></a>
+      <mat-card-actions>
+        <a href="{{ work.link }}"
+          ><button mat-raised-button color="accent">Check it out</button></a
+        >
+      </mat-card-actions>
+    </mat-card>
+  </mat-tab>
+</mat-tab-group>
+
+<mat-divider id="contact"></mat-divider>

@@ -1,0 +1,52 @@
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  width: 78%;
+  margin: auto;
+}
+
+.contact-container > * {
+  width: 100%;
+}
+
+.title {
+  margin: auto;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+mat-raised-button {
+  width: 20%;
+}
+
+mat-card {
+  width: 60%;
+  margin: auto;
+  min-width: 400px;
+}
+mat-divider {
+  width: 75%;
+  margin: 25px auto;
+}
+
+mat-spinner {
+  margin: auto;
+}
+
+.submitMessage {
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.success-button {
+  padding: 25px;
+}
+
+.submittedIcon {
+  margin: auto;
+}
+
+svg {
+  width: 60px;
+  height: 60px;
+}

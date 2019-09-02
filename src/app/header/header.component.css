@@ -1,0 +1,28 @@
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+li {
+  display: inline;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+#svg-logo {
+  padding-top: 10px;
+  width: 150px;
+}
+
+path {
+  fill: black;
+}
+/* mat-toolbar {
+  margin-bottom: 25px;
+} */

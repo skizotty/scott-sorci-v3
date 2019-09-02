@@ -1,0 +1,58 @@
+<mat-card>
+  <div class="title">
+    <h1 class="mat-headline">Contact Me</h1>
+  </div>
+  <mat-spinner *ngIf="isLoading"></mat-spinner>
+  <div *ngIf="isSubmittedSuccessFully" class="submitMessage">
+    <div class="submittedIcon">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+      >
+        <path fill="none" d="M0 0h24v24H0z" />
+        <path
+          fill="green"
+          d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z"
+        />
+      </svg>
+    </div>
+
+    Thank you for reaching out! I will be in touch with you shortly.
+    <div class="success-button">
+      <button
+        (click)="isSubmittedSuccessFully = !isSubmittedSuccessFully"
+        mat-stroked-button
+      >
+        Send Another Message
+      </button>
+    </div>
+  </div>
+  <div *ngIf="!isLoading && !isSubmittedSuccessFully" class="contact-container">
+    <mat-form-field>
+      <input matInput type="text" [(ngModel)]="name" placeholder="Name" />
+    </mat-form-field>
+    <mat-form-field>
+      <input
+        matInput
+        type="email"
+        [(ngModel)]="email"
+        placeholder="Email Address"
+      />
+    </mat-form-field>
+    <mat-form-field>
+      <input matInput type="text" [(ngModel)]="phone" placeholder="Phone" />
+    </mat-form-field>
+    <mat-form-field>
+      <textarea matInput [(ngModel)]="message" placeholder="Message"></textarea>
+    </mat-form-field>
+    <div class="submit-button">
+      <button mat-stroked-button (click)="contactMe()" color="accent">
+        Submit
+      </button>
+    </div>
+  </div>
+</mat-card>
+
+<mat-divider></mat-divider>
