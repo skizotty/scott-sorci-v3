@@ -24,6 +24,7 @@ import { AboutComponent } from './about/about.component';
 import { WorkComponent } from './work/work.component';
 
 import { HeaderComponent } from './header/header.component';
+import { WordCloudComponent } from './about-cloud/about-cloud.component';
 import { FooterComponent } from './footer/footer.component';
 import { ContactComponent } from './contact/contact.component';
 import { HeroComponent } from './hero/hero.component';
@@ -38,7 +39,8 @@ import { AppComponent } from './app.component';
     HeroComponent,
     AboutComponent,
     ContactComponent,
-    FooterComponent
+    FooterComponent,
+    WordCloudComponent
   ],
   imports: [
     MatInputModule,
