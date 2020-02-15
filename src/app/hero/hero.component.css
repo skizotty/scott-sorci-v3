@@ -9,6 +9,7 @@ mat-card {
   padding-bottom: 25px;
   max-width: 500px;
 }
+
 .hero {
   padding: 25px;
 }
@@ -20,7 +21,9 @@ img {
 div {
   padding-top: 25px;
   background: url('/assets/hero-background.jpg') no-repeat fixed center;
+  background-size: cover;
 }
+
 mat-divider {
   width: 87%;
   margin: auto;

@@ -8,6 +8,14 @@ import { Component } from '@angular/core';
 export class WorkComponent {
   expirence = [
     {
+      title: 'Node Task App',
+      img_src: '/assets/task.png',
+      link: 'https://infinite-earth-79798.herokuapp.com',
+      description:
+        // tslint:disable-next-line: max-line-length
+        'A Node / Mongoose / Handlebars app with full CRUD capabilities. Please create an account to get started! The app has a full API layer.'
+    },
+    {
       title: 'Dustin Saying Generator',
       img_src: '/assets/dustin.png',
       link: 'http://webdev.scottsorci.com/dustin.html',
@@ -21,14 +29,6 @@ export class WorkComponent {
       link: 'http://crash-react-app.scottsorci.com/',
       description:
         'A super simple React task app, hooks into a custom NodeJS BE.'
-    },
-    {
-      title: 'Node Task App',
-      img_src: '/assets/task.png',
-      link: 'https://infinite-earth-79798.herokuapp.com',
-      description:
-        // tslint:disable-next-line: max-line-length
-        'A Node / Mongoose / Handlebars app with full CRUD capabilities. Please create an account to get started! The app has a full API layer.'
     },
     {
       title: 'Ticketing App',

@@ -15,6 +15,7 @@ mat-tab-group {
   color: white;
   background: url('/assets/hero-background.jpg') no-repeat fixed center;
   background-position: top 20px;
+  background-size: cover;
 }
 
 button {
@@ -40,6 +41,7 @@ img {
   margin: auto;
   margin-top: 6px;
 }
+
 mat-divider {
   width: 75%;
   margin: auto;
@@ -49,4 +51,8 @@ mat-divider {
 
 .mat-tab-header-pagination-controls-enabled .mat-tab-header-pagination {
   background: white;
+}
+
+mat-card-content {
+  padding: 20px 0 20px 0;
 }
