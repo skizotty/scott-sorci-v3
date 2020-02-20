@@ -10,6 +10,15 @@ mat-card {
   max-width: 500px;
 }
 
+@media only screen and (max-width: 600px) {
+  mat-card {
+    min-width: 80%;
+    margin: auto;
+  }
+}
+
+
+
 .hero {
   padding: 25px;
 }
