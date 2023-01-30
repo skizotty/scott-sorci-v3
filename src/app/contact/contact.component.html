@@ -52,6 +52,16 @@
         Submit
       </button>
     </div>
+    <div class="errors" *ngIf="!!errors">
+      <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+      />
+      <div *ngFor="let error of errors" class="error-message">
+        <span class="material-symbols-outlined error-icon"> warning </span>
+        {{ error }}
+      </div>
+    </div>
   </div>
 </mat-card>
 

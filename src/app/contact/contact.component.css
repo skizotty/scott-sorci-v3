@@ -5,7 +5,7 @@
   margin: auto;
 }
 
-.contact-container>* {
+.contact-container > * {
   width: 100%;
 }
 
@@ -34,8 +34,6 @@ mat-card {
   }
 }
 
-
-
 mat-divider {
   width: 75%;
   margin: 25px auto;
@@ -61,4 +59,21 @@ mat-spinner {
 svg {
   width: 60px;
   height: 60px;
+}
+
+.errors {
+  text-align: center;
+  font-size: 14px;
+  padding: 20px 0;
+}
+
+.error-message {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.error-icon {
+  color: red;
+  padding-right: 10px;
 }
